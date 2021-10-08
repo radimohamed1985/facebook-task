@@ -61,16 +61,16 @@ Create New Account</button>
       <form method="POST" action="/dashboard/facebook/includes/signup.php">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="user">
+    <input type="text" class="form-control" id="email" aria-describedby="emailHelp" name="user">
     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" name="password" required>
+    <input type="password" class="form-control" id="password" name="password" required>
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Phone Number</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="phone">
+    <input type="text" class="form-control" id="phone" aria-describedby="emailHelp" name="phone">
   </div>
   
   <button  class="btn btn-primary" id="btn">Submit</button>
@@ -84,4 +84,6 @@ Create New Account</button>
 </div><!-- end of col of form -->
 </div><!-- end of main row  -->
 </div> <!-- end of main container  -->
+
+<?php
 
